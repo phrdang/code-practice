@@ -1,5 +1,3 @@
-package com.amaan;
-
 public class Book {
     private String title;
     private String author;
