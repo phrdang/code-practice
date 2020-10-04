@@ -1,13 +1,13 @@
 package Amogh;
 
-public class Book1 {
+public class Book {
     private String title;
     private String author;
     private String genre;
     private int numberOfPages;
     private double rating;
 
-    public Book1(){
+    public Book(){
         title = "";
         author = "";
         genre = "";
@@ -15,7 +15,7 @@ public class Book1 {
         rating = 0;
     }
 
-    private Book1(String title, String author, String genre, int numberOfPages, int rating){
+    private Book(String title, String author, String genre, int numberOfPages, int rating){
         this.title = title;
         this.author = author;
         this.genre = genre;

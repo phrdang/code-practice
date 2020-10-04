@@ -2,7 +2,7 @@ package Amogh;
 
 import java.util.Scanner;
 
-public class MatrixMult1 {
+public class MatrixMult {
     public static void main(String[] args){
 
         System.out.println("Matrix A");
