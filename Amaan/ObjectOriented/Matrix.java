@@ -1,3 +1,4 @@
+package Amaan.ObjectOriented;
 
 import java.util.Scanner;
 
