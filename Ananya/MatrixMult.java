@@ -1,3 +1,4 @@
+package Ananya;
 import java.util.Scanner;
 /*
  * Adapted from Exercise 8.5,
@@ -38,7 +39,7 @@ public class MatrixMult {
 
         if (A[0].length == B.length){
             System.out.println("The product of the two matrices is: ");
-            printMatric(multiplyMatrices(A, B));
+            printMatrix(multiplyMatrices(A, B));
         }
         else
             System.out.println("The matrices do not have the correct dimensions to be multiplied.");

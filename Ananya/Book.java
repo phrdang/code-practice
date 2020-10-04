@@ -1,3 +1,4 @@
+package Ananya;
 /*Create a class called Book with 5 private fields:
         title (String), author (String), genre (String),
         numberOfPages (int), and rating (a double from 0 to 5).
@@ -72,6 +73,6 @@ public class Book {
     }
 
     public String toString(){
-        return("Title: " + title + /n"Author: " + author +/n"Genre: " + genre + /n"Number of Pages: " + numberOfPages + /n"Rating: " + rating);
+        return("Title: " + title + "\nAuthor: " + author + "\nGenre: " + genre + "\nNumber of Pages: " + numberOfPages + "\nRating: " + rating);
     }
 }
